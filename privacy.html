@@ -56,7 +56,7 @@
       <p>We cannot see or access this data, and it is not sent to us. If sharing is on, some play stats (such as a game's result or a new best) also go to Google, as described below. We do not ask for your name, email or location, and the app does not ask for location permission.</p>
 
       <h2>What is sent, to whom, and why</h2>
-      <p>The app uses services from Google: AdMob with its consent tool, Firebase Crashlytics and Firebase Analytics. We do not run any servers of our own. Apart from Google, as described below, no one receives data from the app.</p>
+      <p>The app uses services from Google: AdMob with its consent tool, Firebase Crashlytics, Firebase Analytics and, on Android, Google Play's in-app updates. We do not run any servers of our own. Apart from Google, as described below, no one receives data from the app.</p>
 
       <h3>Ads: Google AdMob</h3>
       <p>The app shows banner ads from Google AdMob on the Home and Games screens. It does not show them while you play a game or in Settings. Each time the app opens, Google's consent tool checks with Google whether a consent form applies where you are. To show ads and measure how they do, Google may collect:</p>
@@ -73,6 +73,9 @@
       <h3>Play stats: Firebase Analytics</h3>
       <p>If sharing is on, the app sends play stats to Google's Firebase Analytics. They tell us which screens and games are used and how: the app opening, screens viewed, a game starting, ending, being paused, resumed or quit, its result, how long it lasted, its difficulty, new bests, and settings you change. Firebase also records some things on its own, such as the first time the app opens, how long it is used, app and system updates, and your phone model, system version, language and app version. The app is set up so play stats do not include your name, player names, saves or anything you typed. Firebase uses a random app ID created for this app on your device. Because Google receives your IP address with each upload, it can work out your approximate location. We do not set up user accounts or user profiles in Firebase, and we set Firebase not to use your advertising ID.</p>
       <p>We can see the crash reports and play stats in Google's Firebase console. We use them to fix problems and improve the games.</p>
+
+      <h3>App updates: Google Play</h3>
+      <p>On Android, when you open the app, it asks the Google Play Store app on your phone whether a newer version is available. To check, Google Play uses details about your phone (such as its model and system version), the app's version and which parts of the app are installed. Google uses this only to find an update and its size, does not share it, and deletes it after a set period. If you choose to update, the new version downloads in the background while you play, and the app restarts only when you tap Restart. We never receive this data.</p>
 
       <h2>Your choice: crash reports and play stats</h2>
       <p>Sharing starts off. The app asks you on the Home screen whether to share crash reports and play stats, until you choose <strong>Share</strong> or <strong>No thanks</strong>. The app does not send crash reports or play stats before you say yes. You can change your answer at any time in Settings, then Privacy &amp; storage, with <strong>Share crash reports and play stats</strong>. When you turn it off, the app stops sending data to Firebase, deletes crash reports not yet sent, and resets the Analytics app ID. Your choice is kept when you use Delete all data. If you restore the app from an Android backup, sharing goes back to off.</p>
